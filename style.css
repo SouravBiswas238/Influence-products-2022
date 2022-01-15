@@ -189,12 +189,12 @@
 }
 
 .collection-button{
-    float: right;
-    margin: 20px 0px;
+    height: 31px;
 }
 .collection-button a{
     background-color: transparent;
     color: #E02C6D;
+    float: right;
 }
 .collection-button a:hover{
     background-color: transparent;
@@ -221,6 +221,10 @@
 }
 .product:hover{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    
+}
+.product-image{
+    text-align: center;
 
 }
 .product-info{
