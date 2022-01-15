@@ -1,0 +1,26 @@
+@media only screen and (max-width: 800px) {
+    body{
+        /* background-color: tomato; */
+    }
+    .container {
+        margin: 10px 30px;
+        margin-bottom: 0px;
+    }
+    .container-journey {
+        grid-template-columns: 1fr;
+    }
+    .logos{
+        margin: 0;
+    }
+    .logos img {
+        text-align: center;
+        margin: 1px;
+        width: 43%;
+    }
+    .collections,.top-products {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        
+    }
+    
+}
