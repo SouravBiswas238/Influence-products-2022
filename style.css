@@ -3,7 +3,11 @@
 *,body{
     margin: 0;
     padding: 0;
+    
+}
+body{
     font-family: 'Poppins', sans-serif;
+    max-width: 1496px;
 }
 :root{
     --color-hover: #5800FF;
